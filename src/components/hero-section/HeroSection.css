@@ -1,0 +1,14 @@
+.custom-shape::before {
+    position: absolute;
+    content: '';
+    width: 200%;
+    height: 100%;
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+    top: 0;
+    left: 0;
+    background-color: #4DB8A8;
+}

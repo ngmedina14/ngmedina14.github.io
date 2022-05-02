@@ -1,0 +1,19 @@
+.nav-active {
+    color: #4DB8A8;
+}
+.nav-hover::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    background-color: aliceblue;
+    left: 115%;
+    width: 20%
+}
+.nav-hover::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    background-color: aliceblue;
+    left: 150%;
+    width: 10%
+}
