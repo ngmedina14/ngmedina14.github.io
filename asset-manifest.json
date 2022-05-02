@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbcd6d88.css",
-    "main.js": "/static/js/main.80e4b9e7.js",
+    "main.css": "/static/css/main.c17b5f04.css",
+    "main.js": "/static/js/main.7163bcfa.js",
     "static/js/787.7838ee32.chunk.js": "/static/js/787.7838ee32.chunk.js",
-    "static/media/Resume.pdf": "/static/media/Resume.4dc6522180ed58b20f9a.pdf",
-    "static/media/logo-outline.png": "/static/media/logo-outline.eaf48f2c0b568b8464b5.png",
-    "static/media/logov2.png": "/static/media/logov2.e81274b4456a1d0661d4.png",
+    "static/media/Gilroy-Thin.ttf": "/static/media/Gilroy-Thin.28f856b7c4b3d473e0d1.ttf",
+    "static/media/Gilroy-UltraLight.ttf": "/static/media/Gilroy-UltraLight.768c44ec57dc827381b3.ttf",
+    "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
+    "static/media/Gilroy-Regular.ttf": "/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/Gilroy-SemiBold.ttf": "/static/media/Gilroy-SemiBold.07b9100a72fe7d46d20a.ttf",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/Gilroy-ExtraBold.ttf": "/static/media/Gilroy-ExtraBold.59a66eb8c577778daaa5.ttf",
+    "static/media/Gilroy-Black.ttf": "/static/media/Gilroy-Black.3566c87fe5eaaa7052d5.ttf",
+    "static/media/Gilroy-Heavy.ttf": "/static/media/Gilroy-Heavy.41ca3e2d8c1dc7d3cde9.ttf",
+    "static/media/logo.png": "/static/media/logo.d0a09837340d8bf83b0f.png",
     "index.html": "/index.html",
-    "main.bbcd6d88.css.map": "/static/css/main.bbcd6d88.css.map",
-    "main.80e4b9e7.js.map": "/static/js/main.80e4b9e7.js.map",
+    "main.c17b5f04.css.map": "/static/css/main.c17b5f04.css.map",
+    "main.7163bcfa.js.map": "/static/js/main.7163bcfa.js.map",
     "787.7838ee32.chunk.js.map": "/static/js/787.7838ee32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbcd6d88.css",
-    "static/js/main.80e4b9e7.js"
+    "static/css/main.c17b5f04.css",
+    "static/js/main.7163bcfa.js"
   ]
 }
