@@ -5,6 +5,8 @@
 
 > - Github Pages - deployment
 > [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f]
+> - Router
+> `npm i react-router-dom@6 history@5`
 > - Axios - api
 > `npm i axios`
 > - Spline 3d
@@ -22,7 +24,10 @@
 > `npm install react-scroll`
 > - React Recycled Scrolling - for long list
 > `npm install --save react-recycled-scrolling`
-
+> - React Animate on scroll
+> `npm install aos --save`
+> - Framer Motion - animation library for react
+> `npm install framer-motion`
 
 ##### Colors
 
@@ -46,3 +51,5 @@
 > - use pseudo property like ::before and ::after to implement tranform property
 > ###### if theres an awkward horizontal scroll even if you used overflow:hidden its probably the width:100vw
 > - remove width:100vw
+> ###### Trends of NPM library
+> - `https://www.npmtrends.com`

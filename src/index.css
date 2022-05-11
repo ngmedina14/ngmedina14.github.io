@@ -3,6 +3,29 @@
 @tailwind utilities;
 @import url("./assets/typefaces/typefaces.css");
 
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00a78e62 transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00a78e62;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Gilroy, sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',

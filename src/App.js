@@ -1,37 +1,36 @@
-import { useEffect, useState} from 'react';
+import React,{ useEffect, useState} from 'react';
 import axios from 'axios';
-import HeroSection from './components/hero-section/HeroSection';
-import Skills from './components/skills/Skills';
 import Loader from './components/loader/Loader';
 import Navbar from './components/navbar/Navbar'
-import Services from './components/services/Services'
-import Projects from './components/projects/Projects'
-import Experience from './components/experience/Experience'
-import Bio from './components/bio/Bio'
-import Blog from './components/blog/Blog'
-
+import {Route,Routes,useLocation} from 'react-router-dom';
+import Portfolio from './components/portfolio/Portfolio';
+import SideContact from './components/contact/SideContact';
+import {motion, AnimatePresence} from 'framer-motion'
 // axios.defaults.baseURL="http://192.168.254.123:5000/";
 
 function App() {
-  const [loading,setLoading] = useState(false)
+  const location = useLocation();
+  const [loading,setLoading] = useState(true)
   useEffect(()=>{
-    setLoading(true)
     setTimeout(()=>{
     setLoading(false)
     },1000)
   },[])
   return (
+    <>
     <div className='bg-portfolioLight overflow-hidden'>
       {loading?<Loader/>:<></>}
       <Navbar/>
-      <HeroSection sID='home'/>
-      <Skills sID='skills'/>
-      <Services sID='services'/>
-      <Projects sID='projects'/>
-      <Experience sID='experience'/>
-      <Bio sID='bio'/>
-      <Blog sID='blog'/>
-    </div>
+      <SideContact/>
+      <AnimatePresence exitBeforeEnter onExitComplete={()=>{}}>
+        <Routes location={location} key={location.key}>
+          <Route path='/' element={<Portfolio/>}/>
+          <Route path='/case' element={<Portfolio/>}/>
+        </Routes>
+      </AnimatePresence>
+      
+      </div>
+    </>
   );
 }
 
