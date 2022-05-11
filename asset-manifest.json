@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2510567.css",
-    "main.js": "/static/js/main.c562f341.js",
+    "main.js": "/static/js/main.0dfdd4c0.js",
     "static/js/787.7838ee32.chunk.js": "/static/js/787.7838ee32.chunk.js",
     "static/media/image1.png": "/static/media/image1.feb503e1aa989a900c06.png",
     "static/media/Gilroy-Thin.ttf": "/static/media/Gilroy-Thin.28f856b7c4b3d473e0d1.ttf",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/static/media/logo.d0a09837340d8bf83b0f.png",
     "index.html": "/index.html",
     "main.a2510567.css.map": "/static/css/main.a2510567.css.map",
-    "main.c562f341.js.map": "/static/js/main.c562f341.js.map",
+    "main.0dfdd4c0.js.map": "/static/js/main.0dfdd4c0.js.map",
     "787.7838ee32.chunk.js.map": "/static/js/787.7838ee32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2510567.css",
-    "static/js/main.c562f341.js"
+    "static/js/main.0dfdd4c0.js"
   ]
 }
